@@ -1,6 +1,6 @@
 Study-Java(Android)-Socket-Together
 =======
-
+**本实例部分内容配套介绍博客地址 [基于Socket的网络通信简介](http://ohao.ren/2016/03/02/%E5%9F%BA%E4%BA%8ESocket%E7%9A%84%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1%E7%AE%80%E4%BB%8B/#more) **
 ###com.socket.lesson1
 最基本的基于Java的socket客户端与服务器通信最基本的功能，但是有很多缺点：
 * 必须先运行服务器端，然后再运行客户端进行socket连接，否则抛出异常；
@@ -33,4 +33,5 @@ Study-Java(Android)-Socket-Together
 **简单的服务器端和客户端一对一的socket建立并发送消息已经做好了，但是在实际应用中基本是不能解决问题的:-(，要是有多个客户端如何处理呢？**  
 
 ###com.socket.lesson6###
-尝试使用服务器端每遇到一个客户端连接时，就启动一个线程处理。
+尝试对Client进行Android移植。
+依然有许多问题，我们在下一节课进行改进。

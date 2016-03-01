@@ -1,4 +1,4 @@
-package com.socket.lesson5;
+package com.socket.lesson6.Server;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
